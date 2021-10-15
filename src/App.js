@@ -1,10 +1,26 @@
 
 import './App.css';
+import Header from './components/header';
+import Banner from './components/banner';
+import Features from './components/features';
+import Products from './components/products';
+import Categories from './components/categories';
+import Reviews from './components/reviews';
+import Blogs from './components/blogs';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
-     <h1>yoh</h1>
+     <Header />
+      <Banner />
+      <Features />
+      <Products />
+      <Categories />
+      <Reviews />
+      <Blogs />
+      <Footer />
+    
     </div>
   );
 }
