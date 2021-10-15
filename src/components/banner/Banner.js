@@ -2,9 +2,7 @@ import React from 'react';
 import './banner.css';
 
 const Banner = () => {
-    return (  
-
-        
+    return (   
     <section
     className="banner"
     id="banner"
