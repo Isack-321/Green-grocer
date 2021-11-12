@@ -1,13 +1,13 @@
 
 import './App.css';
-import header from './components/header';
-import Banner from './components/banner';
-import Features from './components/features';
-import Products from './components/products';
-import Categories from './components/categories';
-import Reviews from './components/reviews';
-import Blogs from './components/blogs';
-import Footer from './components/footer';
+import Header from './components/header/Header';
+import Banner from './components/banner/Banner'
+import Features from './components/features/Features';
+import Products from './components/products/Products';
+import Categories from './components/categories/Categories';
+import Reviews from './components/reviews/Reviews';
+import Blogs from './components/blogs/Blogs';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (

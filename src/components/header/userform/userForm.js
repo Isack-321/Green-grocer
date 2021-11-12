@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './UserForm.css';
+import './userForm.css';
 
 const UserForm = (props) => {
     const { active } = props;

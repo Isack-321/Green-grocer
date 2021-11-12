@@ -8,11 +8,11 @@ import {
   faShoppingCart,
   faUser,
 } from '@fortawesome/free-solid-svg-icons';
-import SearchForm from './SearchForm';
-import ShoppingCart from './ShoppingCart';
-import UserForm from './UserForm';
-import './Header.css';
-import Navbar from './Navbar';
+import SearchForm from './searchForm/Searchform';
+import ShoppingCart from './shopping cart/ShoppingCart';
+import UserForm from './userform/userForm';
+import './header.css';
+import Navbar from './navbar/Navbar';
 
 const Header = () => {
   const [activeMenu, setActiveMenu] = useState(false);
